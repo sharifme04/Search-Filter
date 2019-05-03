@@ -67,7 +67,7 @@ render() {
         }
   return (
     <div className="container">
-      <h1>React Search App</h1>
+      <h1>Lanmbdawerk Search App</h1>
       <hr/>
       <h5>Only row will be visible when match 1 (for example ID: 10)</h5>
       <hr/>
