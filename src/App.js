@@ -60,10 +60,10 @@ render() {
           if (currentUsers.length === 1) {
             userDetials = <Table  currentUsers ={currentUsers }/>
            } else {
-            userDetials = <p className="App-header"><b>Currently match</b> {currentUsers.length}</p>;
+            userDetials = <p className="message"><b>Currently match</b> {currentUsers.length}</p>;
           }
         } else {
-          userDetials = <p className="App-header"><b>Users are not available</b></p>;
+          userDetials = <p className="message"><b>Users are not available</b></p>;
         }
   return (
     <div className="container">
