@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, firt install all node modules and then you can run:
+In the project directory, First install all node modules and then you can run:
 
 ### `yarn start`
 
