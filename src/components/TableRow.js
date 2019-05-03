@@ -14,6 +14,7 @@ const TableRow = (props) => (
     <td>{props.user.address.geo.lat}</td>
   </tr>
  );
+ 
  TableRow.propTypes = {
    id:PropTypes.number,
    name: PropTypes.string,
