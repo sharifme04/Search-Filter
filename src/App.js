@@ -42,7 +42,7 @@ class App extends Component {
 
 render() {
    const {users, id, name, email, phone, city, company, zipcode, lat } = this.state;
-    let currentUsers = users.filter(user => {
+   let currentUsers = users.filter(user => {
            return user.id.toString().indexOf( id.toString() ) !== -1 &&
                   user.name.toLowerCase().indexOf( name.toLowerCase() ) !== -1 &&
                   user.email.toLowerCase().indexOf( email.toLowerCase() ) !== -1 &&
@@ -52,13 +52,13 @@ render() {
                   user.address.zipcode.toString().indexOf( zipcode.toString() ) !== -1 &&
                   user.address.geo.lat.toString().indexOf( lat.toString() ) !== -1
        })
-       .map(user =>
-            <TableRow key={user.id} user={user}/>
-        )
     let userDetials ;
         if (currentUsers.length) {
           if (currentUsers.length === 1) {
-            userDetials = <Table  currentUsers ={currentUsers }/>
+            let updateUsers =  currentUsers.map(user =>
+                 <TableRow key={user.id} user={user}/>
+             )
+            userDetials = <Table  updateUsers ={updateUsers}/>
            } else {
             userDetials = <p className="message"><b>Currently match</b> {currentUsers.length}</p>;
           }

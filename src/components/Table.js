@@ -18,14 +18,14 @@ const Table = (props) => (
         </tr>
         </thead>
         <tbody>
-          {props.currentUsers}
+          {props.updateUsers}
         </tbody>
     </table>
   </div>
  );
 
  Table.propTypes = {
-     currentUsers: PropTypes.array.isRequired,
+     updateUsers: PropTypes.array.isRequired,
  };
 
 
