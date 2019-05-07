@@ -10,15 +10,15 @@ class App extends Component {
     super(props)
 
     this.state = {
-       users:[],
-          id:"",
-          name:"",
-          email:"",
-          phone:"",
-          company:"",
-          city:"",
-          zipcode:"",
-          lat: "",
+        users:[],
+        id:"",
+        name:"",
+        email:"",
+        phone:"",
+        company:"",
+        city:"",
+        zipcode:"",
+        lat: "",
     }
 
    this.handleInputSearch = this.handleInputSearch.bind(this);
@@ -67,7 +67,7 @@ render() {
         }
   return (
     <div className="container">
-      <h1>Lanmbdawerk Search App</h1>
+      <h1>Search App</h1>
       <hr/>
       <h5>Only row will be visible when match 1 (for example ID: 10)</h5>
       <hr/>
