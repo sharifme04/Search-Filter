@@ -9,11 +9,20 @@ In the project directory, First install all node modules by `yarn install` and t
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This is the first view .
+<!-- This is the first view .
 ![screenshot](screenshots/1.PNG)
 
 After filter one item match.
 ![screenshot](screenshots/2.PNG)
 
 After filter nothing match.
-![screenshot](screenshots/3.PNG)
+![screenshot](screenshots/3.PNG) -->
+
+This is the first view .
+![screenshot](screenshots/4.PNG)
+
+After filter one item match.
+![screenshot](screenshots/5.PNG)
+
+After filter nothing match.
+![screenshot](screenshots/6.PNG)
